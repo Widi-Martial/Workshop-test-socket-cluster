@@ -30,6 +30,7 @@
   "readmeFilename": "README.md",
   "scripts": {
     "start": "node server.js",
+    "dev": "nodemon server.js",
     "start:watch": "./node_modules/nodemon/bin/nodemon.js server.js",
     "start:docker": "./node_modules/nodemon/bin/nodemon.js /usr/src/app/server.js"
   }
